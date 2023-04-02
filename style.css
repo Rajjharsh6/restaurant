@@ -1,0 +1,317 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+h1{
+  font-size: 20px;
+  color: black;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 2px 5px;
+  text-align: center;
+}
+.container
+{
+  margin: 4px 2px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+.container a{
+  padding: 2px;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+h2
+{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 12px;
+  text-transform: capitalize;
+  border: 2px solid black;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+  background-color: darkolivegreen;
+}
+section{
+  margin: 6px;
+  border: 2px solid black;
+  background-color: lightgray;
+}
+.item1{
+  margin: 6px 15px;
+  display: block;
+  border: 6px solid black;
+  background-color: lightgrey; 
+}
+.item1 > img {
+  display: inline-block;
+  width: 40%;
+  height: 26%;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 4px solid black;
+  border-radius: 16px;
+}
+.item1 > p {
+  
+  border: 2px solid black;
+  margin: 2px 105px;
+  text-align: center;
+}
+.item1 > button {
+  float: right;
+  margin-top: 95px;
+  margin-right: 10px;
+  padding: 2px 8px;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 13px 23px;
+  border: 1px solid #222222;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  background: #fff;
+  color: #222222;
+}
+.item1 button :hover {
+  border-color: #000000;
+  background: #2536F3;
+ }
+.item2{
+  margin: 6px 15px;
+  display: block;
+  border: 6px solid black;
+  background-color: lightgrey; 
+}
+.item2 > img {
+  display: inline-block;
+  width: 40%;
+  height: 35%;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 4px solid black;
+  border-radius: 16px;
+}
+.item2 > p {
+  
+  border: 2px solid black;
+  margin: 2px 105px;
+  text-align: center;
+}
+.item2 > button {
+  float: right;
+  margin-top: 55px;
+  margin-right: 10px;
+  padding: 2px 8px;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 13px 23px;
+  border: 1px solid #222222;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  background: #fff;
+  color: #222222;
+}
+.item2 button :hover {
+  border-color: #000000;
+  background: #2536F3;
+ }
+.item3{
+  margin: 6px 15px;
+  display: block;
+  border: 6px solid black;
+  background-color: lightgrey; 
+}
+.item3 > img {
+  display: inline-block;
+  width: 40%;
+  height: 35%;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 4px solid black;
+  border-radius: 16px;
+}
+.item3 > p {
+  
+  border: 2px solid black;
+  margin: 2px 105px;
+  text-align: center;
+}
+.item3 > button {
+  float: right;
+  margin-top: 55px;
+  margin-right: 10px;
+  padding: 2px 8px;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 13px 23px;
+  border: 1px solid #222222;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  background: #fff;
+  color: #222222;
+}
+.item3 button :hover {
+  border-color: #000000;
+  background: #2536F3;
+ }
+.item4{
+  margin: 6px 15px;
+  display: block;
+  border: 6px solid black;
+  background-color: lightgrey; 
+}
+.item4 > img {
+  display: inline-block;
+  width: 40%;
+  height: 35%;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 4px solid black;
+  border-radius: 16px;
+}
+.item4 > p {
+  
+  border: 2px solid black;
+  margin: 2px 105px;
+  text-align: center;
+}
+.item4 > button {
+  float: right;
+  margin-top: 55px;
+  margin-right: 10px;
+  padding: 2px 8px;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 13px 23px;
+  border: 1px solid #222222;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  background: #fff;
+  color: #222222;
+}
+.item4 button :hover {
+  border-color: #000000;
+  background: #2536F3;
+ }
+.item5{
+  margin: 6px 15px;
+  display: block;
+  border: 6px solid black;
+  background-color: lightgrey; 
+}
+.item5 > img {
+  display: inline-block;
+  width: 40%;
+  height: 35%;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 4px solid black;
+  border-radius: 16px;
+}
+.item5 > p {
+  border: 2px solid black;
+  margin: 2px 105px;
+  text-align: center;
+}
+.item5 > button {
+  float: right;
+  margin-top: 55px;
+  margin-right: 10px;
+  padding: 2px 8px;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 13px 23px;
+  border: 1px solid #222222;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  background: #fff;
+  color: #222222;
+}
+.item5 button :hover {
+  border-color: #000000;
+  background: #2536F3;
+ }
+ .item6{
+  margin: 6px 15px;
+  display: block;
+  border: 6px solid black;
+  background-color: lightgrey; 
+}
+.item6 > img {
+  display: inline-block;
+  width: 40%;
+  height: 35%;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 4px solid black;
+  border-radius: 16px;
+}
+.item6 > p {
+  
+  border: 2px solid black;
+  margin: 2px 105px;
+  text-align: center;
+}
+.item6 > button {
+  float: right;
+  margin-top: 55px;
+  margin-right: 10px;
+  padding: 2px 8px;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 13px 23px;
+  border: 1px solid #222222;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  background: #fff;
+  color: #222222;
+}
+.item6 button :hover {
+  border-color: #000000;
+  background: #2536F3;
+ }
+ footer{
+   margin-top: 50px;
+   border: 2px solid black;
+ }
+footer > p {
+  margin: 5px 19px;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 4px 11px;
+}
